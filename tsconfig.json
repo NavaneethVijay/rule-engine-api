@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es2015",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "resolveJsonModule": true,
+      "strict": false,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "types": ["reflect-metadata"]
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
